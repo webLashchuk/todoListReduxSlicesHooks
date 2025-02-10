@@ -1,0 +1,66 @@
+@import "../../assets/styles/mixins.scss";
+
+.todolist {
+    padding: 40px 20px;
+}
+
+.layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height: calc(100vh - 80px);
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(#1c1c1c, .4);
+}
+
+.panel {
+    @include flex-center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    @include flex-center;
+    background-color: rgba(255, 0, 0, 0.5);
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.list {
+    @include flex-center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item.success {
+    background-color: rgba(#2fff00, 0.5);
+}
+
+.task {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+
+
+
