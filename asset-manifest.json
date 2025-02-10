@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/todoListReduxSlicesHooks/static/css/main.1c7936cc.css",
+    "main.js": "/todoListReduxSlicesHooks/static/js/main.6ece9ab1.js",
+    "index.html": "/todoListReduxSlicesHooks/index.html",
+    "static/media/icon.svg": "/todoListReduxSlicesHooks/static/media/icon.0e3e390b5ee7cb394b1e3fee68ec5901.svg",
+    "main.1c7936cc.css.map": "/todoListReduxSlicesHooks/static/css/main.1c7936cc.css.map",
+    "main.6ece9ab1.js.map": "/todoListReduxSlicesHooks/static/js/main.6ece9ab1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c7936cc.css",
+    "static/js/main.6ece9ab1.js"
+  ]
+}
